@@ -1,0 +1,45 @@
+.find-the-car {
+  width: 100%;
+  border: #fff;
+
+  .title {
+    text-align: center;
+    margin-top: 150px;
+
+    h1 {
+      font-size: 32px;
+      font-weight: 200;
+      color: rgba(0, 46, 93, 1);
+      font-family: "Nunito", sans-serif !important;
+    }
+
+    h3 {
+      font-size: 24px;
+      font-weight: 100;
+      color: rgba(0, 46, 93, 1);
+      font-family: "Roboto", sans-serif !important;
+    }
+  }
+
+  .body-styles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  div {
+    img {
+      height: 189px;
+      width: 261px;
+    }
+
+    a {
+      display: block;
+      margin-left: 100px;
+      margin-top: 20px;
+      font-size: 12px;
+      font-weight: 400;
+      color:rgba(0, 46, 93, 1);
+    }
+  }
+}

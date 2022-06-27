@@ -1,0 +1,40 @@
+.header {
+  height: 81px;
+  padding: 0 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    height: 54px;
+  }
+  .links {
+    a {
+      margin-right: 40px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #002e5d;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    button {
+      background-color: #002e5d;
+      color: #fff;
+      border: 2px solid #002e5d;
+      border-radius: 50px;
+      width: 140px;
+      height: 45px;
+      line-height: 42px;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        background-color: #fff;
+        color: #002e5d;
+        transition: 0.5s;
+      }
+    }
+  }
+
+
+}

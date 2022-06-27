@@ -1,0 +1,50 @@
+.sell-vehicle {
+  width: 100%;
+  background-color: #fff;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 200;
+    color: rgba(0, 46, 93, 1);
+    font-family: "Nunito", sans-serif !important;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 46, 93, 1);
+    font-family: "Roboto", sans-serif !important;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    line-height: 25px;
+  }
+
+  button {
+    background-color: #fff;
+    color: #002e5d;
+    border: 3px solid #002e5d;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif !important;
+    border-radius: 50px;
+    width: 206px;
+    height: 54px;
+    line-height: 42px;
+    text-align: center;
+    box-shadow: 6px 6px #c3eae3;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    &:hover {
+      background-color: #c3eae3;
+      color: #002e5d;
+      transition: 0.5s;
+      border: none;
+      box-shadow: none;
+    }
+  }
+}

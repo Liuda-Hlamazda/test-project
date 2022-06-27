@@ -1,0 +1,98 @@
+.reviews {
+  width: 100%;
+  background-color: rgba(4, 160, 222, 0.05);
+
+  .title {
+    text-align: center;
+
+    h3 {
+      font-size: 32px;
+      font-weight: 200;
+      color: rgba(0, 46, 93, 1);
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    span {
+      font-family: "Nunito", sans-serif !important;
+      font-size: 24px;
+      font-weight: 700;
+      color: rgba(0, 46, 93, 1);
+      text-align: center;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 24px;
+      font-weight: 100;
+      color: rgba(0, 46, 93, 1);
+      text-align: center;
+    }
+    a {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(0, 46, 93, 1);
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.read_all_reviews {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 75px;
+
+  div {
+    width: 320px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+    }
+  
+
+  h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 46, 93, 1);
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0, 46, 93, 1);
+    font-family: "Roboto", sans-serif !important;
+    text-align: center;
+  }
+
+  ul {
+
+    text-align: center;
+    padding-left: 0;
+
+    li {
+      display: block;
+      display: inline;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 46, 93, 1);
+    width: 266px;
+    font-family: "Nunito", sans-serif !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    color: rgba(0, 46, 93, 1);
+    ;
+  }
+}
